@@ -1,11 +1,19 @@
+
 body{
-    background-color:rgba(255, 16, 240, 1) ;
+    background-image: url(https://i.postimg.cc/3RQSGTFh/images-26.jpg);
     overflow: auto;
+   height: 100%;
+   margin: 0;
+
    
 }
 .navbar{
     height: 100vh;
-   
+    width: 25%;
+   position: fixed;
+   top: 0;
+   z-index: 1000;
+   background-color:  rgba(168, 22, 118, 1);
 }
 
         .nav-item {
@@ -23,9 +31,7 @@ body{
             margin-right:10px ;
             padding: 10px;
         }
-        navbar{
-            margin-top: 0%;
-        }
+    
         footer {
             background-color: rgba(255, 16, 240, 1);  ;
             color: black;
@@ -42,38 +48,134 @@ body{
 }
 .image-container{text-align: center;}
 .rounded-image{border-radius:100%;
-border: 10px solid black;} 
+border: 10px solid  rgba(168, 22, 118, 1);} 
 
-@keyframes colorChange{
-    0%{color:#b30059;}
-    50%{color: #ff7f50;}
-    100%{color: #ff0000;}
-}
-h1{animation: colorChange 3s infinite;
+
+#container{
+
+    text-align: center;
+  color: black;
+ 
+  margin: 0 0 0 17%;
+    padding: 10px;
+    margin-bottom: 0 0 0 10%;
     
+  
 }
-#about-h{
-    text-align: center;
-}
-.about-container{
-    margin: 0 auto;
-    width: 400px;
-    padding:70px;
-    max-width: 900px;
-    border-radius: 100px;
-    text-align: center;
 
+
+.aza{
+    margin:0 0 0 20%;
+}
+    .about-container {
+        max-width: 600px;
+        margin: 50px;
+        font-size: x-large;
+        padding: 20px;
+     background-color: rgba(168, 22, 118, 1);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 70px;
+
+      
+}
+.about-content{
+    display: flex;
+}
+#container-pic{
+    margin: 0 0 0 50%;
+    width: 500px;
+   
+ 
+
+}
+
+
+
+.h1{
+    @keyframes colorChange{
+        0%{color:#9400d3;}
+        50%{color: #301934;}
+        100%{color: #ff0000;}
+    }
+     .h1{  animation: colorChange 3s infinite;}
 }
 .about-container p {
-    margin: 5px;
+    margin: 5px 0 5px 0;
 }
-#about-h{
-    margin: 0;
+
+
+
+#text{ 
+    height: 50%;
+    margin: 0 0 0 auto;
+    text-align: center;
+   font-style: italic;
+ 
+}
+
+.education-container{
+    
+    margin: 0 0 0 10%;
+}
+
+ .skills-a{border-radius:100%;
+    border: 10px solid rgba(168, 22, 118, 1);
+    border:px;
+    padding: 5px;
+    margin-top: 15px;
+ }   
+.col{
+    background-color: rgba(168, 22, 118, 1);
+    margin: 0 0 0 18%;
+    border-radius: 10px;
+}
+
+.container-skill{
+    margin: 0 0 0 26%;
     padding: 10px;
+  height: 27vh;
+    
+  
 }
-.skills-y{
-    width:80px;
-        padding: 10px;
+
+#skill1{
+  margin: 0 0 0 10%;
+padding: 20px;
 }
-.text p{ height: 50%;}
+#skill2
+{
+    margin: 0 0 0 55%;
+ padding: 20px;
+
+}
+.container-project2{
+    margin: 0 0 0 30%;
+  
+}
+
+#container-project{
+margin: 0 0 0 27%;
+
+}
+.card img {
+    width: 100%; 
+    height: 200px; 
+    object-fit: cover; 
+
+}
+.card {
+    background-color:palevioletred;
+    margin-bottom: 20px; 
+    border-radius: 10px; 
+   
+}
+#container-testimonial{
+    margin: 0 0 0 30%;
+}
+#container-contact{
+   margin: 0 0 0 50%;
+   width: 500px;
+   height: auto;
+}
+
 
