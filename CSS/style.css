@@ -4,7 +4,7 @@ body{
     overflow: auto;
    height: 100%;
    margin: 0;
-
+font-size: 16px;
    
 }
 .navbar{
@@ -32,7 +32,7 @@ body{
             padding: 10px;
         }
     
-        footer {
+       footer {
             background-color: rgba(255, 16, 240, 1);  ;
             color: black;
             padding: 20px;
@@ -50,7 +50,9 @@ body{
 .rounded-image{border-radius:100%;
 border: 10px solid  rgba(168, 22, 118, 1);} 
 
-
+.btn {
+    background-color:  rgba(168, 22, 118, 1);
+}
 #container{
 
     text-align: center;
@@ -72,7 +74,7 @@ border: 10px solid  rgba(168, 22, 118, 1);}
         margin: 50px;
         font-size: x-large;
         padding: 20px;
-     background-color: rgba(168, 22, 118, 1);
+     background-color:rgba(255, 16, 240, 1);
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         border-radius: 70px;
 
@@ -119,13 +121,13 @@ border: 10px solid  rgba(168, 22, 118, 1);}
 }
 
  .skills-a{border-radius:100%;
-    border: 10px solid rgba(168, 22, 118, 1);
+    border: 10px solid rgba(255, 16, 240, 1);
     border:px;
     padding: 5px;
     margin-top: 15px;
  }   
 .col{
-    background-color: rgba(168, 22, 118, 1);
+    background-color:rgba(255, 16, 240, 1);
     margin: 0 0 0 18%;
     border-radius: 10px;
 }
@@ -136,6 +138,17 @@ border: 10px solid  rgba(168, 22, 118, 1);}
   height: 27vh;
     
   
+}
+.navbar-icon1{
+    width :70px;
+}
+@keyframes colorChange {
+    0% { color:#4B0082; } 
+    50% { color: blue; } 
+    100% { color: red; } 
+}
+.animated-text{
+    animation: colorChange 3s linear infinite;
 }
 
 #skill1{
@@ -149,12 +162,14 @@ padding: 20px;
 
 }
 .container-project2{
-    margin: 0 0 0 30%;
+    margin: 0 0 0 25%;
+
   
 }
 
 #container-project{
-margin: 0 0 0 27%;
+margin: 0 0 0 24%;
+height: 40vh;
 
 }
 .card img {
@@ -164,18 +179,85 @@ margin: 0 0 0 27%;
 
 }
 .card {
-    background-color:palevioletred;
+    background-color:rgba(255, 16, 240, 1);
     margin-bottom: 20px; 
     border-radius: 10px; 
    
 }
 #container-testimonial{
     margin: 0 0 0 30%;
+   
 }
 #container-contact{
    margin: 0 0 0 50%;
    width: 500px;
-   height: auto;
+   height: 40vh;
+}
+
+.testimonial {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    background-color:rgba(255, 16, 240, 1);
+    margin: 0 0 0 40%;
+  
+  }
+  
+  
+  .testimonial img {
+    width: 100px;
+    height: 100px;
+    
+  }
+  .testimonial p {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+  .testimonial p strong {
+    font-weight: bold;
+  }
+  #test{
+    margin: 0 0 0 14%;
+  }
+
+
+.contact-form {
+  background-color:rgba(255, 16, 240, 1) ;
+  color: #fff;
+  padding: 40px;
+  width: 980px;
+  margin:0 0 0 30%;
+  border-radius: 10px;
 }
 
 
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 5px;
+}
+
+.contact-form textarea {
+  height: 100px;
+}
+
+.contact-form input[type="submit"] {
+  background-color: #4B0082;
+  color: #fff;
+  padding: 10px 15px;
+
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;}
+  @media screen and (max-width: 600px) {
+    header, nav, main, footer {
+        width: 100%;
+    }
+}
+
+  
